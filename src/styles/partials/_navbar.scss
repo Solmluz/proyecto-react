@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 230, 231);
+
+    img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+    
+    a {
+        margin: 0.5rem;
+        font-size: 1rem;
+        text-decoration: none;
+        color: rgb(228, 40, 112);
+    }
+}
+
