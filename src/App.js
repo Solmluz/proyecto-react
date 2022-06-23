@@ -1,9 +1,13 @@
-import NavBar from "./components/navbar.js"
+import ItemListContainer from "./components/itemListContainer";
+import NavBar from "./components/navBar/navbar.js";
 
-const App = () =>{
+const App = () => {
   return (
-    <NavBar></NavBar>
-  )
-}
+    <div className="App">
+      <NavBar />
+      <ItemListContainer greeting="Este es un texto placeholder" />
+    </div>
+  );
+};
 
 export default App;
