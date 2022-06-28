@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(243, 230, 231);
+    background-color: #f3e6e7;
 
     img {
         width: 80px;
@@ -16,10 +16,10 @@ nav {
         margin: 0.5rem;
         font-size: 1rem;
         text-decoration: none;
-        color: rgb(228, 40, 112);
+        color: #e42870;
     }
     a:hover {
-        color: rgb(109, 25, 124);
-        transition: 0.5s ease-out;
+        color: #763ca5;
+        transition: 0.2s ease-out;
     }
 }

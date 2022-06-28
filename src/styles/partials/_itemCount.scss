@@ -1,0 +1,21 @@
+.counter {
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+
+    button {
+        border: none;
+        border-radius: 5px;
+        background: #763ca5;
+        color: #f3e6e7;
+        padding: 0.5rem;
+        margin: 1rem;
+        cursor: pointer;
+    }
+    button:hover {
+        color: #763ca5;
+        background-color: #f3e6e7;
+        transition: 0.2s ease-out;
+    }
+}
