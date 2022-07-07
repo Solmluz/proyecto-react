@@ -46,7 +46,9 @@ export const ItemListContainer = ({ greeting }) => {
         {greeting}
       </div>
       <ItemCount initial={1} stock={8} onAdd={onAdd} />
+      <div className="item-list">
       <ItemList data={data} />
+      </div>
     </>
   );
 };
