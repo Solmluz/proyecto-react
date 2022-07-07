@@ -1,12 +1,13 @@
 import "../../styles/main.scss";
+import { Link } from "react-router-dom";
 
-const Item = ({info}) => {
-    return (
-        <a href="" className="producto">
-            <img src={info.image} alt="" />
-            <p>{info.title}</p>
-        </a>
-    );
-}
+const Item = ({ info }) => {
+  return (
+      <Link to={`/detalle/${info.id}`} className="producto">
+        <img src={info.image} alt="" />
+        <p>{info.title}</p>
+      </Link>
+  );
+};
 
-export default Item; 
+export default Item;
