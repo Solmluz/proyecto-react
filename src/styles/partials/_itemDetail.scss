@@ -12,6 +12,11 @@
     display: flex;
     flex-wrap: wrap;
 
+    &__return {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     &__image {
         width: 500px;
         margin: 2rem;
@@ -31,6 +36,21 @@
             margin-block-start: 1.5rem;
             margin-block-end: 1.5rem;
             text-align: center;
+        }
+        &__button {
+            border: none;
+            border-radius: 5px;
+            background: #915c3e;
+            color: #ecdbcd;
+            padding: 0.5rem;
+            margin: 1rem;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        &__button:hover {
+            color: #915c3e;
+            background-color: #ecdbcd;
+            transition: 0.2s ease-out;
         }
     }
 }

@@ -3,7 +3,6 @@
     width: 300px;
     margin: auto;
     text-decoration: none;
-    font-size: 1.1rem;
     text-align: center;
     color: #e42870;
     padding: 1rem;
@@ -13,7 +12,27 @@
         height: 100%;
     }
 
-    p {
+    &__texto {
+        font-size: 1.1rem;
         margin: 1rem;
+    }
+
+    &__button {
+        border: none;
+        border-radius: 5px;
+        background: #915c3e;
+        color: #ecdbcd;
+        font-size: 1rem;
+        padding: 0.5rem;
+        margin: 4rem;
+        margin-block-start: 0.5rem;
+        margin-block-end: 0.5rem;
+        cursor: pointer;
+    }
+
+    &__button:hover {
+        color: #915c3e;
+        background-color: #ecdbcd;
+        transition: 0.2s ease-out;
     }
 }

@@ -5,7 +5,11 @@ const Item = ({ info }) => {
   return (
       <Link to={`/detalle/${info.id}`} className="producto">
         <img src={info.image} alt="" />
-        <p>{info.title}</p>
+        <div className="producto__texto">
+        <h2>{info.title}</h2>
+        <p>{info.cost}</p>
+        </div>
+        <button className="producto__button">Más información</button>
       </Link>
   );
 };

@@ -10,8 +10,8 @@ const App = () => {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<ItemListContainer greeting="Este es un texto placeholder" />}/>
-          <Route path="/categoria/:categoriaId" element={<ItemListContainer greeting="Este es un texto placeholder" />}/>
+          <Route path="/" element={<ItemListContainer greeting="Mi Tienda" />}/>
+          <Route path="/categoria/:categoriaId" element={<ItemListContainer greeting="Mi Tienda" />}/>
           <Route path="/cart" element={<Cart />}/>
           <Route path="/detalle/:detalleId" element={<ItemDetailContainer />}/>
         </Routes>
