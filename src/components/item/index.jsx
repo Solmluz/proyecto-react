@@ -1,5 +1,7 @@
 import "../../styles/main.scss";
 import { Link } from "react-router-dom";
+import React, {useContext} from "react";
+import { CartContext } from "../../context/cartContext";
 
 const Item = ({ info }) => {
   return (
