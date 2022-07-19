@@ -10,7 +10,7 @@ const NavBar = () => {
               <li>
               <NavLink className="nav__link" to="/">
                 <h1>
-                    Mi Tienda
+                  Pletsies
                 </h1>
               </NavLink>
               </li>
